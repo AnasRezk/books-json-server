@@ -1,435 +1,689 @@
 {
   "combos": [
     {
-      "id": 9001,
-      "name": "Family Meal",
-      "nameAr": "وجبة العائلة",
-      "categoryId": 1158,
-      "itemCode": "CMB-FAM01",
-      "includeModifiers": false,
-      "isActive": true,
-      "image": "",
-      "defaultPrice": 0,
-      "branchIds": [],
-      "sizes": [
-        { "id": 1, "name": "Regular", "nameAr": "عادي", "sequence": 0 },
-        { "id": 2, "name": "Large", "nameAr": "كبير", "sequence": 1 }
-      ],
-      "groups": [
-        {
-          "id": 1,
-          "name": "Main",
-          "nameAr": "الطبق الرئيسي",
-          "sequence": 0,
-          "options": [
+        "id": 9001,
+        "name": "Family Meal",
+        "nameAr": "وجبة العائلة",
+        "categoryId": 1158,
+        "itemCode": "CMB-FAM01",
+        "includeModifiers": false,
+        "isActive": true,
+        "image": "",
+        "defaultPrice": 0,
+        "branchIds": [],
+        "sizes": [
             {
-              "id": 1,
-              "name": "Grilled Chicken",
-              "nameAr": "دجاج مشوي",
-              "sizePrices": [
-                { "id": 1, "sizeRef": 0, "productId": 28, "price": 25.0 },
-                { "id": 2, "sizeRef": 1, "productId": 28, "price": 35.0 }
-              ]
+                "id": 1,
+                "name": "Regular",
+                "nameAr": "عادي",
+                "sequence": 0
             },
             {
-              "id": 2,
-              "name": "Beef Burger",
-              "nameAr": "برجر لحم",
-              "sizePrices": [
-                { "id": 3, "sizeRef": 0, "productId": 22, "price": 28.0 },
-                { "id": 4, "sizeRef": 1, "productId": 22, "price": 38.0 }
-              ]
+                "id": 2,
+                "name": "Large",
+                "nameAr": "كبير",
+                "sequence": 1
             }
-          ]
-        },
-        {
-          "id": 2,
-          "name": "Drinks",
-          "nameAr": "المشروبات",
-          "sequence": 1,
-          "options": [
+        ],
+        "groups": [
             {
-              "id": 3,
-              "name": "Soft Drink",
-              "nameAr": "مشروب غازي",
-              "sizePrices": [
-                { "id": 5, "sizeRef": 0, "productId": 131, "price": 5.0 },
-                { "id": 6, "sizeRef": 1, "productId": 131, "price": 8.0 }
-              ]
+                "id": 1,
+                "name": "Main",
+                "nameAr": "الطبق الرئيسي",
+                "sequence": 0,
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Grilled Chicken",
+                        "nameAr": "دجاج مشوي",
+                        "sizePrices": [
+                            {
+                                "id": 1,
+                                "sizeRef": 0,
+                                "productId": 28,
+                                "price": 25
+                            },
+                            {
+                                "id": 2,
+                                "sizeRef": 1,
+                                "productId": 28,
+                                "price": 35
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "name": "Beef Burger",
+                        "nameAr": "برجر لحم",
+                        "sizePrices": [
+                            {
+                                "id": 3,
+                                "sizeRef": 0,
+                                "productId": 22,
+                                "price": 28
+                            },
+                            {
+                                "id": 4,
+                                "sizeRef": 1,
+                                "productId": 22,
+                                "price": 38
+                            }
+                        ]
+                    }
+                ]
             },
             {
-              "id": 4,
-              "name": "Water",
-              "nameAr": "ماء",
-              "sizePrices": [
-                { "id": 7, "sizeRef": 0, "productId": 132, "price": 2.0 },
-                { "id": 8, "sizeRef": 1, "productId": 132, "price": 3.0 }
-              ]
+                "id": 2,
+                "name": "Drinks",
+                "nameAr": "المشروبات",
+                "sequence": 1,
+                "options": [
+                    {
+                        "id": 3,
+                        "name": "Soft Drink",
+                        "nameAr": "مشروب غازي",
+                        "sizePrices": [
+                            {
+                                "id": 5,
+                                "sizeRef": 0,
+                                "productId": 131,
+                                "price": 5
+                            },
+                            {
+                                "id": 6,
+                                "sizeRef": 1,
+                                "productId": 131,
+                                "price": 8
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "name": "Water",
+                        "nameAr": "ماء",
+                        "sizePrices": [
+                            {
+                                "id": 7,
+                                "sizeRef": 0,
+                                "productId": 132,
+                                "price": 2
+                            },
+                            {
+                                "id": 8,
+                                "sizeRef": 1,
+                                "productId": 132,
+                                "price": 3
+                            }
+                        ]
+                    }
+                ]
             }
-          ]
-        }
-      ],
-      "menuGroupIds": [],
-      "tagIds": [],
-      "customPrices": []
+        ],
+        "menuGroupIds": [],
+        "tagIds": [],
+        "customPrices": []
     },
     {
-      "id": 9002,
-      "name": "Breakfast Combo",
-      "nameAr": "كومبو الإفطار",
-      "categoryId": 1158,
-      "itemCode": "CMB-BRK01",
-      "includeModifiers": true,
-      "isActive": true,
-      "image": "",
-      "defaultPrice": 0,
-      "branchIds": [],
-      "sizes": [
-        { "id": 3, "name": "Single", "nameAr": "فردي", "sequence": 0 }
-      ],
-      "groups": [
-        {
-          "id": 3,
-          "name": "Main Dish",
-          "nameAr": "الطبق الرئيسي",
-          "sequence": 0,
-          "options": [
+        "id": 9002,
+        "name": "Breakfast Combo",
+        "nameAr": "كومبو الإفطار",
+        "categoryId": 1158,
+        "itemCode": "CMB-BRK01",
+        "includeModifiers": true,
+        "isActive": true,
+        "image": "",
+        "defaultPrice": 0,
+        "branchIds": [],
+        "sizes": [
             {
-              "id": 5,
-              "name": "Plain Egg",
-              "nameAr": "بيض سادة",
-              "sizePrices": [{ "id": 9, "sizeRef": 0, "productId": 9, "price": 10.0 }]
+                "id": 3,
+                "name": "Single",
+                "nameAr": "فردي",
+                "sequence": 0
+            }
+        ],
+        "groups": [
+            {
+                "id": 3,
+                "name": "Main Dish",
+                "nameAr": "الطبق الرئيسي",
+                "sequence": 0,
+                "options": [
+                    {
+                        "id": 5,
+                        "name": "Plain Egg",
+                        "nameAr": "بيض سادة",
+                        "sizePrices": [
+                            {
+                                "id": 9,
+                                "sizeRef": 0,
+                                "productId": 9,
+                                "price": 10
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "name": "Meat Pie",
+                        "nameAr": "فطيرة لحم",
+                        "sizePrices": [
+                            {
+                                "id": 10,
+                                "sizeRef": 0,
+                                "productId": 23,
+                                "price": 15
+                            }
+                        ]
+                    }
+                ]
             },
             {
-              "id": 6,
-              "name": "Meat Pie",
-              "nameAr": "فطيرة لحم",
-              "sizePrices": [{ "id": 10, "sizeRef": 0, "productId": 23, "price": 15.0 }]
+                "id": 4,
+                "name": "Hot Drink",
+                "nameAr": "مشروب ساخن",
+                "sequence": 1,
+                "options": [
+                    {
+                        "id": 7,
+                        "name": "Tea",
+                        "nameAr": "شاي",
+                        "sizePrices": [
+                            {
+                                "id": 11,
+                                "sizeRef": 0,
+                                "productId": 2442,
+                                "price": 8
+                            }
+                        ]
+                    }
+                ]
             }
-          ]
-        },
-        {
-          "id": 4,
-          "name": "Hot Drink",
-          "nameAr": "مشروب ساخن",
-          "sequence": 1,
-          "options": [
-            {
-              "id": 7,
-              "name": "Tea",
-              "nameAr": "شاي",
-              "sizePrices": [{ "id": 11, "sizeRef": 0, "productId": 2442, "price": 8.0 }]
-            }
-          ]
-        }
-      ],
-      "menuGroupIds": [],
-      "tagIds": [],
-      "customPrices": []
+        ],
+        "menuGroupIds": [],
+        "tagIds": [],
+        "customPrices": []
     },
     {
-      "id": 9003,
-      "name": "Kids Box",
-      "nameAr": "وجبة الأطفال",
-      "categoryId": 1158,
-      "itemCode": "CMB-KID01",
-      "includeModifiers": false,
-      "isActive": false,
-      "image": "",
-      "defaultPrice": 0,
-      "branchIds": [],
-      "sizes": [
-        { "id": 4, "name": "Standard", "nameAr": "قياسي", "sequence": 0 }
-      ],
-      "groups": [
-        {
-          "id": 5,
-          "name": "Main",
-          "nameAr": "الطبق الرئيسي",
-          "sequence": 0,
-          "options": [
+        "id": 9003,
+        "name": "Kids Box",
+        "nameAr": "وجبة الأطفال",
+        "categoryId": 1158,
+        "itemCode": "CMB-KID01",
+        "includeModifiers": false,
+        "isActive": false,
+        "image": "",
+        "defaultPrice": 0,
+        "branchIds": [],
+        "sizes": [
             {
-              "id": 8,
-              "name": "Chicken Pie",
-              "nameAr": "فطيرة دجاج",
-              "sizePrices": [{ "id": 12, "sizeRef": 0, "productId": 28, "price": 18.0 }]
+                "id": 4,
+                "name": "Standard",
+                "nameAr": "قياسي",
+                "sequence": 0
             }
-          ]
-        },
-        {
-          "id": 6,
-          "name": "Drink",
-          "nameAr": "مشروب",
-          "sequence": 1,
-          "options": [
+        ],
+        "groups": [
             {
-              "id": 9,
-              "name": "Soft Drink",
-              "nameAr": "مشروب غازي",
-              "sizePrices": [{ "id": 13, "sizeRef": 0, "productId": 131, "price": 4.0 }]
+                "id": 5,
+                "name": "Main",
+                "nameAr": "الطبق الرئيسي",
+                "sequence": 0,
+                "options": [
+                    {
+                        "id": 8,
+                        "name": "Chicken Pie",
+                        "nameAr": "فطيرة دجاج",
+                        "sizePrices": [
+                            {
+                                "id": 12,
+                                "sizeRef": 0,
+                                "productId": 28,
+                                "price": 18
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Drink",
+                "nameAr": "مشروب",
+                "sequence": 1,
+                "options": [
+                    {
+                        "id": 9,
+                        "name": "Soft Drink",
+                        "nameAr": "مشروب غازي",
+                        "sizePrices": [
+                            {
+                                "id": 13,
+                                "sizeRef": 0,
+                                "productId": 131,
+                                "price": 4
+                            }
+                        ]
+                    }
+                ]
             }
-          ]
-        }
-      ],
-      "menuGroupIds": [],
-      "tagIds": [],
-      "customPrices": []
+        ],
+        "menuGroupIds": [],
+        "tagIds": [],
+        "customPrices": []
     },
     {
-      "id": 9004,
-      "name": "Saj Combo",
-      "nameAr": "كومبو ساج",
-      "categoryId": 1158,
-      "itemCode": "CMB-SAJ01",
-      "includeModifiers": false,
-      "isActive": true,
-      "image": "",
-      "defaultPrice": 0,
-      "branchIds": [],
-      "sizes": [
-        { "id": 5, "name": "Half", "nameAr": "نصف", "sequence": 0 },
-        { "id": 6, "name": "Full", "nameAr": "كامل", "sequence": 1 }
-      ],
-      "groups": [
-        {
-          "id": 7,
-          "name": "Saj Choice",
-          "nameAr": "اختيار الساج",
-          "sequence": 0,
-          "options": [
+        "id": 9004,
+        "name": "Saj Combo",
+        "nameAr": "كومبو ساج",
+        "categoryId": 1158,
+        "itemCode": "CMB-SAJ01",
+        "includeModifiers": false,
+        "isActive": true,
+        "image": "",
+        "defaultPrice": 0,
+        "branchIds": [],
+        "sizes": [
             {
-              "id": 10,
-              "name": "Jat Saj",
-              "nameAr": "جاط ساج",
-              "sizePrices": [
-                { "id": 14, "sizeRef": 0, "productId": 143, "price": 12.0 },
-                { "id": 15, "sizeRef": 1, "productId": 143, "price": 20.0 }
-              ]
+                "id": 5,
+                "name": "Half",
+                "nameAr": "نصف",
+                "sequence": 0
             },
             {
-              "id": 11,
-              "name": "Falafel Mix",
-              "nameAr": "فلافل مكس",
-              "sizePrices": [
-                { "id": 16, "sizeRef": 0, "productId": 31, "price": 10.0 },
-                { "id": 17, "sizeRef": 1, "productId": 31, "price": 17.0 }
-              ]
-            },
-            {
-              "id": 12,
-              "name": "Special Falafel",
-              "nameAr": "فلافل خاص",
-              "sizePrices": [
-                { "id": 18, "sizeRef": 0, "productId": 33, "price": 11.0 },
-                { "id": 19, "sizeRef": 1, "productId": 33, "price": 18.0 }
-              ]
+                "id": 6,
+                "name": "Full",
+                "nameAr": "كامل",
+                "sequence": 1
             }
-          ]
-        },
-        {
-          "id": 8,
-          "name": "Drink",
-          "nameAr": "مشروب",
-          "sequence": 1,
-          "options": [
+        ],
+        "groups": [
             {
-              "id": 13,
-              "name": "Soft Drink",
-              "nameAr": "مشروب غازي",
-              "sizePrices": [
-                { "id": 20, "sizeRef": 0, "productId": 131, "price": 3.0 },
-                { "id": 21, "sizeRef": 1, "productId": 131, "price": 5.0 }
-              ]
+                "id": 7,
+                "name": "Saj Choice",
+                "nameAr": "اختيار الساج",
+                "sequence": 0,
+                "options": [
+                    {
+                        "id": 10,
+                        "name": "Jat Saj",
+                        "nameAr": "جاط ساج",
+                        "sizePrices": [
+                            {
+                                "id": 14,
+                                "sizeRef": 0,
+                                "productId": 143,
+                                "price": 12
+                            },
+                            {
+                                "id": 15,
+                                "sizeRef": 1,
+                                "productId": 143,
+                                "price": 20
+                            }
+                        ]
+                    },
+                    {
+                        "id": 11,
+                        "name": "Falafel Mix",
+                        "nameAr": "فلافل مكس",
+                        "sizePrices": [
+                            {
+                                "id": 16,
+                                "sizeRef": 0,
+                                "productId": 31,
+                                "price": 10
+                            },
+                            {
+                                "id": 17,
+                                "sizeRef": 1,
+                                "productId": 31,
+                                "price": 17
+                            }
+                        ]
+                    },
+                    {
+                        "id": 12,
+                        "name": "Special Falafel",
+                        "nameAr": "فلافل خاص",
+                        "sizePrices": [
+                            {
+                                "id": 18,
+                                "sizeRef": 0,
+                                "productId": 33,
+                                "price": 11
+                            },
+                            {
+                                "id": 19,
+                                "sizeRef": 1,
+                                "productId": 33,
+                                "price": 18
+                            }
+                        ]
+                    }
+                ]
             },
             {
-              "id": 14,
-              "name": "Hibiscus",
-              "nameAr": "كركديه",
-              "sizePrices": [
-                { "id": 22, "sizeRef": 0, "productId": 1412, "price": 4.0 },
-                { "id": 23, "sizeRef": 1, "productId": 1412, "price": 6.0 }
-              ]
+                "id": 8,
+                "name": "Drink",
+                "nameAr": "مشروب",
+                "sequence": 1,
+                "options": [
+                    {
+                        "id": 13,
+                        "name": "Soft Drink",
+                        "nameAr": "مشروب غازي",
+                        "sizePrices": [
+                            {
+                                "id": 20,
+                                "sizeRef": 0,
+                                "productId": 131,
+                                "price": 3
+                            },
+                            {
+                                "id": 21,
+                                "sizeRef": 1,
+                                "productId": 131,
+                                "price": 5
+                            }
+                        ]
+                    },
+                    {
+                        "id": 14,
+                        "name": "Hibiscus",
+                        "nameAr": "كركديه",
+                        "sizePrices": [
+                            {
+                                "id": 22,
+                                "sizeRef": 0,
+                                "productId": 1412,
+                                "price": 4
+                            },
+                            {
+                                "id": 23,
+                                "sizeRef": 1,
+                                "productId": 1412,
+                                "price": 6
+                            }
+                        ]
+                    }
+                ]
             }
-          ]
-        }
-      ],
-      "menuGroupIds": [],
-      "tagIds": [],
-      "customPrices": []
+        ],
+        "menuGroupIds": [],
+        "tagIds": [],
+        "customPrices": []
     },
     {
-      "id": 9005,
-      "name": "Sweet Deal",
-      "nameAr": "عرض الحلويات",
-      "categoryId": 1158,
-      "itemCode": "CMB-SWT01",
-      "includeModifiers": false,
-      "isActive": true,
-      "image": "",
-      "defaultPrice": 0,
-      "branchIds": [],
-      "sizes": [
-        { "id": 7, "name": "Single", "nameAr": "فردي", "sequence": 0 }
-      ],
-      "groups": [
-        {
-          "id": 9,
-          "name": "Sweet Pie",
-          "nameAr": "فطيرة حلوة",
-          "sequence": 0,
-          "options": [
+        "id": 9005,
+        "name": "Sweet Deal",
+        "nameAr": "عرض الحلويات",
+        "categoryId": 1158,
+        "itemCode": "CMB-SWT01",
+        "includeModifiers": false,
+        "isActive": true,
+        "image": "",
+        "defaultPrice": 0,
+        "branchIds": [],
+        "sizes": [
             {
-              "id": 15,
-              "name": "Nutella & Kinder",
-              "nameAr": "نوتيلا وكيندر",
-              "sizePrices": [{ "id": 24, "sizeRef": 0, "productId": 242, "price": 14.0 }]
-            },
-            {
-              "id": 16,
-              "name": "Nutella Chocolate",
-              "nameAr": "نوتيلا شوكولاتة",
-              "sizePrices": [{ "id": 25, "sizeRef": 0, "productId": 243, "price": 12.0 }]
-            },
-            {
-              "id": 17,
-              "name": "Kinder Chocolate",
-              "nameAr": "كيندر شوكولاتة",
-              "sizePrices": [{ "id": 26, "sizeRef": 0, "productId": 244, "price": 12.0 }]
+                "id": 7,
+                "name": "Single",
+                "nameAr": "فردي",
+                "sequence": 0
             }
-          ]
-        },
-        {
-          "id": 10,
-          "name": "Hot Drink",
-          "nameAr": "مشروب ساخن",
-          "sequence": 1,
-          "options": [
+        ],
+        "groups": [
             {
-              "id": 18,
-              "name": "Tea",
-              "nameAr": "شاي",
-              "sizePrices": [{ "id": 27, "sizeRef": 0, "productId": 2442, "price": 8.0 }]
+                "id": 9,
+                "name": "Sweet Pie",
+                "nameAr": "فطيرة حلوة",
+                "sequence": 0,
+                "options": [
+                    {
+                        "id": 15,
+                        "name": "Nutella & Kinder",
+                        "nameAr": "نوتيلا وكيندر",
+                        "sizePrices": [
+                            {
+                                "id": 24,
+                                "sizeRef": 0,
+                                "productId": 242,
+                                "price": 14
+                            }
+                        ]
+                    },
+                    {
+                        "id": 16,
+                        "name": "Nutella Chocolate",
+                        "nameAr": "نوتيلا شوكولاتة",
+                        "sizePrices": [
+                            {
+                                "id": 25,
+                                "sizeRef": 0,
+                                "productId": 243,
+                                "price": 12
+                            }
+                        ]
+                    },
+                    {
+                        "id": 17,
+                        "name": "Kinder Chocolate",
+                        "nameAr": "كيندر شوكولاتة",
+                        "sizePrices": [
+                            {
+                                "id": 26,
+                                "sizeRef": 0,
+                                "productId": 244,
+                                "price": 12
+                            }
+                        ]
+                    }
+                ]
             },
             {
-              "id": 19,
-              "name": "Hibiscus",
-              "nameAr": "كركديه",
-              "sizePrices": [{ "id": 28, "sizeRef": 0, "productId": 1412, "price": 7.0 }]
+                "id": 10,
+                "name": "Hot Drink",
+                "nameAr": "مشروب ساخن",
+                "sequence": 1,
+                "options": [
+                    {
+                        "id": 18,
+                        "name": "Tea",
+                        "nameAr": "شاي",
+                        "sizePrices": [
+                            {
+                                "id": 27,
+                                "sizeRef": 0,
+                                "productId": 2442,
+                                "price": 8
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19,
+                        "name": "Hibiscus",
+                        "nameAr": "كركديه",
+                        "sizePrices": [
+                            {
+                                "id": 28,
+                                "sizeRef": 0,
+                                "productId": 1412,
+                                "price": 7
+                            }
+                        ]
+                    }
+                ]
             }
-          ]
-        }
-      ],
-      "menuGroupIds": [],
-      "tagIds": [],
-      "customPrices": []
+        ],
+        "menuGroupIds": [],
+        "tagIds": [],
+        "customPrices": []
     },
     {
-      "id": 9006,
-      "name": "Signature Meal",
-      "nameAr": "وجبة مميزة",
-      "categoryId": 1158,
-      "itemCode": "CMB-SIG01",
-      "includeModifiers": true,
-      "isActive": true,
-      "image": "",
-      "defaultPrice": 0,
-      "branchIds": [],
-      "sizes": [
-        { "id": 8, "name": "Regular", "nameAr": "عادي", "sequence": 0 }
-      ],
-      "groups": [
-        {
-          "id": 11,
-          "name": "Main",
-          "nameAr": "الطبق الرئيسي",
-          "sequence": 0,
-          "options": [
+        "id": 9006,
+        "name": "Signature Meal",
+        "nameAr": "وجبة مميزة",
+        "categoryId": 1158,
+        "itemCode": "CMB-SIG01",
+        "includeModifiers": true,
+        "isActive": true,
+        "image": "",
+        "defaultPrice": 0,
+        "branchIds": [],
+        "sizes": [
             {
-              "id": 20,
-              "name": "Chicken w Cheese",
-              "nameAr": "دجاج بالجبن",
-              "sizePrices": [{ "id": 29, "sizeRef": 0, "productId": 29, "price": 22.0 }]
+                "id": 8,
+                "name": "Regular",
+                "nameAr": "عادي",
+                "sequence": 0
+            }
+        ],
+        "groups": [
+            {
+                "id": 11,
+                "name": "Main",
+                "nameAr": "الطبق الرئيسي",
+                "sequence": 0,
+                "options": [
+                    {
+                        "id": 20,
+                        "name": "Chicken w Cheese",
+                        "nameAr": "دجاج بالجبن",
+                        "sizePrices": [
+                            {
+                                "id": 29,
+                                "sizeRef": 0,
+                                "productId": 29,
+                                "price": 22
+                            }
+                        ]
+                    },
+                    {
+                        "id": 21,
+                        "name": "Meat w Cheese",
+                        "nameAr": "لحم بالجبن",
+                        "sizePrices": [
+                            {
+                                "id": 30,
+                                "sizeRef": 0,
+                                "productId": 24,
+                                "price": 24
+                            }
+                        ]
+                    }
+                ]
             },
             {
-              "id": 21,
-              "name": "Meat w Cheese",
-              "nameAr": "لحم بالجبن",
-              "sizePrices": [{ "id": 30, "sizeRef": 0, "productId": 24, "price": 24.0 }]
+                "id": 12,
+                "name": "Drink",
+                "nameAr": "مشروب",
+                "sequence": 1,
+                "options": [
+                    {
+                        "id": 22,
+                        "name": "Soft Drink",
+                        "nameAr": "مشروب غازي",
+                        "sizePrices": [
+                            {
+                                "id": 31,
+                                "sizeRef": 0,
+                                "productId": 131,
+                                "price": 5
+                            }
+                        ]
+                    },
+                    {
+                        "id": 23,
+                        "name": "Hibiscus",
+                        "nameAr": "كركديه",
+                        "sizePrices": [
+                            {
+                                "id": 32,
+                                "sizeRef": 0,
+                                "productId": 1412,
+                                "price": 6
+                            }
+                        ]
+                    }
+                ]
             }
-          ]
-        },
-        {
-          "id": 12,
-          "name": "Drink",
-          "nameAr": "مشروب",
-          "sequence": 1,
-          "options": [
-            {
-              "id": 22,
-              "name": "Soft Drink",
-              "nameAr": "مشروب غازي",
-              "sizePrices": [{ "id": 31, "sizeRef": 0, "productId": 131, "price": 5.0 }]
-            },
-            {
-              "id": 23,
-              "name": "Hibiscus",
-              "nameAr": "كركديه",
-              "sizePrices": [{ "id": 32, "sizeRef": 0, "productId": 1412, "price": 6.0 }]
-            }
-          ]
-        }
-      ],
-      "menuGroupIds": [],
-      "tagIds": [],
-      "customPrices": []
+        ],
+        "menuGroupIds": [],
+        "tagIds": [],
+        "customPrices": []
     },
     {
-      "id": 9007,
-      "name": "Pizza & Energy Deal",
-      "nameAr": "عرض البيتزا والطاقة",
-      "categoryId": 1158,
-      "itemCode": "CMB-PIZ01",
-      "includeModifiers": true,
-      "isActive": true,
-      "image": "",
-      "defaultPrice": 0,
-      "branchIds": [],
-      "sizes": [
-        { "id": 9, "name": "Regular", "nameAr": "عادي", "sequence": 0 }
-      ],
-      "groups": [
-        {
-          "id": 13,
-          "name": "Pizza",
-          "nameAr": "بيتزا",
-          "sequence": 0,
-          "options": [
+        "id": 9007,
+        "name": "Pizza & Energy Deal",
+        "nameAr": "عرض البيتزا والطاقة",
+        "categoryId": 1158,
+        "itemCode": "CMB-PIZ01",
+        "includeModifiers": true,
+        "isActive": true,
+        "image": "",
+        "defaultPrice": 0,
+        "branchIds": [],
+        "sizes": [
             {
-              "id": 24,
-              "name": "Vegetables Pizza",
-              "nameAr": "بيتزا خضار",
-              "sizePrices": [{ "id": 33, "sizeRef": 0, "productId": 71, "price": 18.0 }]
+                "id": 9,
+                "name": "Regular",
+                "nameAr": "عادي",
+                "sequence": 0
             }
-          ]
-        },
-        {
-          "id": 14,
-          "name": "Energy Drink",
-          "nameAr": "مشروب طاقة",
-          "sequence": 1,
-          "options": [
+        ],
+        "groups": [
             {
-              "id": 25,
-              "name": "Red Bull",
-              "nameAr": "رد بول",
-              "sizePrices": [{ "id": 34, "sizeRef": 0, "productId": 178, "price": 8.0 }]
+                "id": 13,
+                "name": "Pizza",
+                "nameAr": "بيتزا",
+                "sequence": 0,
+                "options": [
+                    {
+                        "id": 24,
+                        "name": "Vegetables Pizza",
+                        "nameAr": "بيتزا خضار",
+                        "sizePrices": [
+                            {
+                                "id": 33,
+                                "sizeRef": 0,
+                                "productId": 71,
+                                "price": 18
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "name": "Energy Drink",
+                "nameAr": "مشروب طاقة",
+                "sequence": 1,
+                "options": [
+                    {
+                        "id": 25,
+                        "name": "Red Bull",
+                        "nameAr": "رد بول",
+                        "sizePrices": [
+                            {
+                                "id": 34,
+                                "sizeRef": 0,
+                                "productId": 178,
+                                "price": 8
+                            }
+                        ]
+                    }
+                ]
             }
-          ]
-        }
-      ],
-      "menuGroupIds": [],
-      "tagIds": [],
-      "customPrices": [{ "branchId": 36, "sizeRef": 0, "optionId": 24, "price": 25 }]
+        ],
+        "menuGroupIds": [],
+        "tagIds": [],
+        "customPrices": [
+            {
+                "branchId": 36,
+                "sizeRef": 0,
+                "optionId": 24,
+                "price": 25
+            }
+        ]
     }
-  ]
+]
 }
